@@ -19,7 +19,7 @@ class Game {
     async start() {
         if(gameState === 0) {
             player = new Player();
-            background(backgroundIMG);
+            background(0, 0, 0);
             var playerCountREF = await database.ref('playerCount').once("value");
             if(playerCountREF.exists()) {
                 playerCount = playerCountREF.val();
