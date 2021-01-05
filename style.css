@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas{
+    
+    border: 2px solid black;
+  }
+  
+h1 {
+  font-size: 80px;
+  color: aliceblue;
+}
+  
+input {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+}
+
+button {
+  background-color: green;
+  border: 2px solid green;
+  padding: 10px 30px 10px 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  color: aliceblue;
+}
+
+p {
+  background-color: aliceblue;
+}
+
+input {
+  background-color: black;
+  color: aliceblue;
+  border: 2px solid black;
+}
