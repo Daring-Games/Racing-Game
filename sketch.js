@@ -23,16 +23,16 @@ var abbc;
 
 
 function preload() {
-    car1IMG = loadImage("/images/car1.png");
-    car2IMG = loadImage("/images/car2.png");
-    car3IMG = loadImage("/images/car3.png");
-    car4IMG = loadImage("/images/car4.png");
+    car1IMG = loadImage("images/car1.png");
+    car2IMG = loadImage("images/car2.png");
+    car3IMG = loadImage("images/car3.png");
+    car4IMG = loadImage("images/car4.png");
 
-    ground = loadImage("/images/ground.png");
+    ground = loadImage("images/ground.png");
 
-    backgroundIMG = loadImage("/images/bg.jpg");
+    backgroundIMG = loadImage("images/bg.jpg");
     
-    trackIMG = loadImage("/images/track.jpg");
+    trackIMG = loadImage("images/track.jpg");
 }
 
 
